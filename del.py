@@ -1,5 +1,5 @@
 from os import system, name # Import libraries to manage the system console.
-import time #Import the time library for utility.
+import time # Import the time library for utility.
 import logging # Import logging for debugging and troubleshooting.
 
 # Variables
@@ -57,7 +57,7 @@ def remove_state():
 
     main_menu()
 
- # A function that removes values from the dictionary
+ # A function that adds values to the dictionary
 def add_state():
     clear()
     print_college_football_dictionary()
